@@ -27,7 +27,7 @@ export default function RecipeCard({ id, imageLink, recipeTitle }) {
           borderBottom: '2px solid rgba(191, 189, 190, 0.43)',
         }}
       >
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom fontSize="1.2rem">
           {recipeTitle}
         </Typography>
       </CardContent>
