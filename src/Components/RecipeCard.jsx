@@ -5,12 +5,12 @@ import {
   CardMedia,
   IconButton,
   Typography,
-} from '@mui/material';
-import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
-import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
-import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
-import React from 'react';
-import PropTypes from 'prop-types';
+} from "@mui/material";
+import AddCircleOutlineOutlinedIcon from "@mui/icons-material/AddCircleOutlineOutlined";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import MoreHorizOutlinedIcon from "@mui/icons-material/MoreHorizOutlined";
+import React from "react";
+import PropTypes from "prop-types";
 
 export default function RecipeCard({ id, imageLink, recipeTitle }) {
   return (
@@ -23,8 +23,8 @@ export default function RecipeCard({ id, imageLink, recipeTitle }) {
       />
       <CardContent
         sx={{
-          paddingBottom: '2px',
-          borderBottom: '2px solid rgba(191, 189, 190, 0.43)',
+          paddingBottom: "2px",
+          borderBottom: "2px solid rgba(191, 189, 190, 0.43)",
         }}
       >
         <Typography variant="h5" gutterBottom fontSize="1.2rem">
@@ -33,9 +33,9 @@ export default function RecipeCard({ id, imageLink, recipeTitle }) {
       </CardContent>
       <CardActions
         sx={{
-          display: 'flex',
-          justifyContent: 'space-around',
-          paddingTop: '2px',
+          display: "flex",
+          justifyContent: "space-around",
+          paddingTop: "2px",
         }}
       >
         <IconButton aria-label="view calories and macros" size="large">
